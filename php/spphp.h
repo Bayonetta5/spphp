@@ -16,7 +16,7 @@ static void ***tsrm_ls = nullptr;
 #define PHP_COMPILER_ID  "VC14"
 #endif //USE_OLD_PHP
 
-#define PHP_WIN32 0
+#define PHP_WIN32
 #define ZEND_WIN32
 
 #else //_MSC_VER
