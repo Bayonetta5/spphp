@@ -437,6 +437,10 @@ END_EXTERN_C()
 #endif
 #endif /* !XtOffsetOf */
 
+
+#include "../Zend/zend_exceptions.h"
+#include "../Zend/zend_interfaces.h"
+
 #endif
 
 /*

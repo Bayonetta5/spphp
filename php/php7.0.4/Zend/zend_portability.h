@@ -154,7 +154,7 @@
 # define DL_HANDLE					void *
 # define ZEND_EXTENSIONS_SUPPORT	1
 #elif defined(ZEND_WIN32)
-# define DL_LOAD(libname)			LoadLibrary(libname)
+# define DL_LOAD(libname)			LoadLibraryA(libname)
 # define DL_FETCH_SYMBOL			GetProcAddress
 # define DL_UNLOAD					FreeLibrary
 # define DL_HANDLE					HMODULE
